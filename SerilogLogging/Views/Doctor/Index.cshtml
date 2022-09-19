@@ -1,0 +1,32 @@
+﻿
+
+<h2>Yeni həkim əlavə et</h2>
+<div><a href="Doctor/Add/">Yeni</a></div>
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ad</th>
+                            <th>Soyad</th>
+                            <th>Təcrübə</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var Model in ViewBag.Doctors)
+                        {
+                            <tr>
+
+                                <td>@Model.Name</td>
+                                <td>@Model.Surname</td>
+                                <td>@Model.Experience</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
