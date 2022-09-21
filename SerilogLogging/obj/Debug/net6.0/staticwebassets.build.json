@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BEc/vu2cXFGlDiJ+5cvuUuYj/B32OAfLfpNc7CVOi/E=",
+  "Hash": "EcGikT7sGgFYUNb/vFFkpr67pIxjwzoF0/GGxRTmlCM=",
   "Source": "SerilogLogging",
   "BasePath": "_content/SerilogLogging",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\SerilogLogging\\wwwroot\\GeneratedQRCode\\qrcode.png",
+      "SourceId": "SerilogLogging",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\SerilogLogging\\wwwroot\\",
+      "BasePath": "_content/SerilogLogging",
+      "RelativePath": "GeneratedQRCode/qrcode.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GeneratedQRCode\\qrcode.png"
     },
     {
       "Identity": "C:\\Users\\KHANIM\\source\\repos\\TryCustomMiddleware\\Logging_Serilog\\SerilogLogging\\wwwroot\\js\\site.js",

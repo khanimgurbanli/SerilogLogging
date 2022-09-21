@@ -23,8 +23,8 @@ internal class Program
 
 
         // Doctor Services
-        builder.Services.AddScoped<IBaseService<Doctor>, BaseService<Doctor>>();
-        builder.Services.AddScoped<IDoctorService,DoctorService>();
+        builder.Services.AddScoped<IBaseService<VCard>, BaseService<VCard>>();
+        builder.Services.AddScoped<IVCardService,VCardService>();
 
 
         #region Configure serilog
@@ -38,7 +38,6 @@ internal class Program
         Log.Logger = new LoggerConfiguration()
         .WriteTo.Console()
         .WriteTo.Debug(outputTemplate: DateTime.Now.ToString())
-        .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
         .WriteTo.Seq("http://localhost:5341/")
         .ReadFrom.Configuration(configuration)
         .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
@@ -72,7 +71,7 @@ internal class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Doctor}/{action=Index}/{id?}");
+            pattern: "{controller=Card}/{action=Index}/{id?}");
 
         app.Run();
     }

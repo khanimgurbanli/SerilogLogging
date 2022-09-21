@@ -16,6 +16,7 @@ namespace DataAccess.Contexts
         { }
 
         public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<VCard> VCard { get; set; }
 
       
     }

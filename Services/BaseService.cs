@@ -22,6 +22,7 @@ namespace Services
             this._dbContext = dbContext;
         }
 
+
         public DbSet<T> Table => _dbContext.Set<T>();
         public async Task CreateAsync(T entity) => await Table.AddAsync(entity);
         public void Delete(T entity) => Table.Remove(entity);

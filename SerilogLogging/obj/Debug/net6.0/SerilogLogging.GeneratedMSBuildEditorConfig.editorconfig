@@ -15,20 +15,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\KHANIM\source\repos\TryCustomMiddleware\Logging_Serilog\SerilogLogging
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Doctor/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFkZC5jc2h0bWw=
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Doctor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Codes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxDb2Rlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Doctor/NotFound.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXE5vdEZvdW5kLmNzaHRtbA==
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/GetDataFromApi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxHZXREYXRhRnJvbUFwaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Doctor/Opps.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXE9wcHMuY3NodG1s
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/Opps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxPcHBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Card/QrCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxRckNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KHANIM/source/repos/TryCustomMiddleware/Logging_Serilog/SerilogLogging/Views/Home/Index.cshtml]
